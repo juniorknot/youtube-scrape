@@ -6,7 +6,7 @@ const app = express();
 app.get('/', (req, res) => {
     res.sendFile(__dirname + "/index.html");
 });
- 
+
 //API route
 app.get('/api/search', (req, res) => {
     scraper.youtube(req.query.q, req.query.page)
