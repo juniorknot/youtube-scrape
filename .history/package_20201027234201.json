@@ -5,7 +5,7 @@
     "main": "server.js",
     "author": "Herman Fassett",
     "dependencies": {
-        "express":"*",
+        "express": "latest",
         "request": "latest",
         "cheerio": "latest"
     }
